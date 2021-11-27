@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Wed Nov 24 16:14:39 GMT 2021" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: Band, Cleanup: Hired Help])" bids="162" runtime="1.112304959" deadline="60rounds">
+<resultsOfAgent agent="Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="/Users/kenielpeart/IdeaProjects/Lab3JonnyBlack/out/production/Lab3JonnyBlack/group21/Agent.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentHardliner" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.TimeDependentAgentHardliner" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BayesianAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.BayesianAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

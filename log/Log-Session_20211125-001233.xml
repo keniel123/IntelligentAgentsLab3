@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Thu Nov 25 00:12:34 GMT 2021" timeOfAgreement="0.8032786885245902" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Your Dorm, Invitations: Custom, Printed, Music: DJ, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="124" runtime="0.823232539" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Your Dorm, Invitations: Custom, Printed, Music: DJ, Cleanup: Hired Help]" startingAgent="BoulwareNegotiationParty@1109" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty@1109" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.7658333333333335" finalUtility="0.7658333333333335" discountedUtility="0.7658333333333335" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="ConcederNegotiationParty@1110" agentDesc="Time-based conceder" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.ConcederNegotiationParty" userUtility="0.38292394243184924" finalUtility="0.38292394243184924" discountedUtility="0.38292394243184924" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent@1111" agentDesc="Places bids based on Johnny Black Oppenent Model" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group21.Agent" userUtility="0.7499659080705785" finalUtility="0.7499659080705785" discountedUtility="0.7499659080705785" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

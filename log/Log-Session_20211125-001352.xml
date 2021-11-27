@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Thu Nov 25 00:13:53 GMT 2021" lastAction="(EndNegotiation)" domain="etc/templates/partydomain/party_domain.xml" bids="109" runtime="1.183240113" finalOutcome="-" startingAgent="JonnyBlack@1715" deadline="60rounds">
+<resultsOfAgent agent="JonnyBlack@1715" agentDesc="ANAC2015" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2015.JonnyBlack.JonnyBlack" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent@1716" agentDesc="Places bids based on Johnny Black Oppenent Model" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group21.Agent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

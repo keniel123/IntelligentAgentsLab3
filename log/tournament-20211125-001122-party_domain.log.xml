@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><Tournament>
+<NegotiationOutcome currentTime="Thu Nov 25 00:11:23 GMT 2021" timeOfAgreement="0.819672131147541" lastAction="(Accept  bid:Bid[Food: Handmade Food, Drinks: Beer Only, Location: Your Dorm, Invitations: Custom, Printed, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="98" runtime="0.022543117" finalOutcome="Bid[Food: Handmade Food, Drinks: Beer Only, Location: Your Dorm, Invitations: Custom, Printed, Music: MP3, Cleanup: Water and Soap]" startingAgent="BoulwareNegotiationParty@578" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty@578" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.6725" finalUtility="0.6725" discountedUtility="0.6725" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@579" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.69869077026364" finalUtility="0.69869077026364" discountedUtility="0.69869077026364" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Thu Nov 25 00:11:23 GMT 2021" timeOfAgreement="0.14754098360655737" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="16" runtime="0.003432254" finalOutcome="Bid[Food: Catering, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: MP3, Cleanup: Water and Soap]" startingAgent="ConcederNegotiationParty@580" deadline="60rounds">
+<resultsOfAgent agent="ConcederNegotiationParty@580" agentDesc="Time-based conceder" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.ConcederNegotiationParty" userUtility="0.6583333333333333" finalUtility="0.6583333333333333" discountedUtility="0.6583333333333333" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@581" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="1.0" finalUtility="1.0" discountedUtility="1.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of Agent@582:java.lang.NullPointerException: bid can not be null: bid can not be null" currentTime="Thu Nov 25 00:11:23 GMT 2021" lastAction="null" bids="0" runtime="0.381741443" deadline="60rounds">
+<resultsOfAgent agent="Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="/Users/kenielpeart/IdeaProjects/Lab3JonnyBlack/out/production/Lab3JonnyBlack/group21/Agent.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Thu Nov 25 00:11:23 GMT 2021" timeOfAgreement="0.47540983606557374" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup: Specialized Materials])" domain="etc/templates/partydomain/party_domain.xml" bids="57" runtime="0.012552883" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup: Specialized Materials]" startingAgent="BoulwareNegotiationParty@593" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty@593" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.975" finalUtility="0.975" discountedUtility="0.975" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="ConcederNegotiationParty@594" agentDesc="Time-based conceder" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.ConcederNegotiationParty" userUtility="0.49464690002105177" finalUtility="0.49464690002105177" discountedUtility="0.49464690002105177" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Thu Nov 25 00:11:23 GMT 2021" timeOfAgreement="0.08196721311475409" lastAction="(Accept  bid:Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Handmade, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="8" runtime="0.001971129" finalOutcome="Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Handmade, Music: MP3, Cleanup: Water and Soap]" startingAgent="ConcederNegotiationParty@595" deadline="60rounds">
+<resultsOfAgent agent="ConcederNegotiationParty@595" agentDesc="Time-based conceder" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.ConcederNegotiationParty" userUtility="0.7466666666666668" finalUtility="0.7466666666666668" discountedUtility="0.7466666666666668" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="ConcederNegotiationParty@596" agentDesc="Time-based conceder" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.ConcederNegotiationParty" userUtility="0.7784676281352214" finalUtility="0.7784676281352214" discountedUtility="0.7784676281352214" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of Agent@597:java.lang.NullPointerException: bid can not be null: bid can not be null" currentTime="Thu Nov 25 00:11:24 GMT 2021" lastAction="null" bids="0" runtime="0.341662399" deadline="60rounds">
+<resultsOfAgent agent="Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="/Users/kenielpeart/IdeaProjects/Lab3JonnyBlack/out/production/Lab3JonnyBlack/group21/Agent.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="ConcederNegotiationParty" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.ConcederNegotiationParty" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Thu Nov 25 00:11:25 GMT 2021" timeOfAgreement="0.7540983606557377" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Party Room, Invitations: Custom, Printed, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="90" runtime="0.86888618" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Party Room, Invitations: Custom, Printed, Music: MP3, Cleanup: Water and Soap]" startingAgent="BoulwareNegotiationParty@608" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty@608" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.8783333333333334" finalUtility="0.8783333333333334" discountedUtility="0.8783333333333334" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent@609" agentDesc="Places bids based on Johnny Black Oppenent Model" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group21.Agent" userUtility="0.7382820437475793" finalUtility="0.7382820437475793" discountedUtility="0.7382820437475793" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Thu Nov 25 00:11:25 GMT 2021" timeOfAgreement="0.14754098360655737" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="16" runtime="0.52590513" finalOutcome="Bid[Food: Catering, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup: Water and Soap]" startingAgent="ConcederNegotiationParty@610" deadline="60rounds">
+<resultsOfAgent agent="ConcederNegotiationParty@610" agentDesc="Time-based conceder" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.ConcederNegotiationParty" userUtility="0.7216666666666667" finalUtility="0.7216666666666667" discountedUtility="0.7216666666666667" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent@611" agentDesc="Places bids based on Johnny Black Oppenent Model" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group21.Agent" userUtility="0.9279255161862858" finalUtility="0.9279255161862858" discountedUtility="0.9279255161862858" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of Agent@621:java.lang.NullPointerException: bid can not be null: bid can not be null" currentTime="Thu Nov 25 00:11:26 GMT 2021" lastAction="null" bids="0" runtime="0.353576213" deadline="60rounds">
+<resultsOfAgent agent="Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="/Users/kenielpeart/IdeaProjects/Lab3JonnyBlack/out/production/Lab3JonnyBlack/group21/Agent.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="/Users/kenielpeart/IdeaProjects/Lab3JonnyBlack/out/production/Lab3JonnyBlack/group21/Agent.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome></Tournament>
